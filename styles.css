@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda+One&display=swap");
+:root {
+  --primary: #182c61;
+  --secondary: #eab543;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--primary);
+  color: var(--secondary);
+  font-family: "Merienda One", cursive;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+img {
+  width: 30%;
+  margin-top: 4rem;
+  border-radius: 1%;
+  border: 1px solid;
+  position: static;
+}
+
+input {
+  margin: 1rem;
+}
+
+td,
+th {
+  padding: 1rem;
+}
+
+td:hover {
+  color: violet;
+  font-size: 2rem;
+  transition: all 0.5s ease;
+}
+
+button {
+  width: 4rem;
+}
+
+button:hover {
+  background: black;
+  color: white;
+}
